@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>User Form</title>
+  <link rel="stylesheet" href="/node_modules/toastr/build/toastr.min.css">
+  <link rel="stylesheet" href="/assets/style/style.css">
+  <link rel="stylesheet" href="/node_modules/jquery-date-range-picker/dist/daterangepicker.min.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>My Great form</h1>
+    <form class="userform" action="index.html" method="post">
+      <div class="firstname">
+        <label for="firstname">Firstname</label>
+        <input type="text" name="firstname" value="" id="firstname" />
+        <p></p>
+      </div>
+
+      <div class="firstname">
+        <label for="lastname">Lastname</label>
+        <input type="text" name="lastname" value="" id="lastname">
+        <p></p>
+      </div>
+
+      <div class="email">
+        <label for="email">Email</label>
+        <input type="text" name="email" value="" id="email">
+        <p></p>
+      </div>
+
+      <div class="phone">
+        <label for="phone">Phone</label>
+        <input type="text" name="phone" value="" id="phone">
+        <p></p>
+      </div>
+
+      <div class="birthday">
+        <label for="birthday">Birthday</label>
+        <input type="text" name="birthday" value="" id="birthday">
+        <p></p>
+      </div>
+
+      <input type="submit" value="Submit" />
+    </form>
+  </div>
+
+  <div id="modal" class="modal">
+    <div id="content" class="content"></div>
+  </div>
+
+  <script src="/node_modules/moment/min/moment.min.js" charset="utf-8"></script>
+  <script src="/node_modules/jquery/dist/jquery.min.js" charset="utf-8"></script>
+
+  <script src="/node_modules/jquery-date-range-picker/dist/jquery.daterangepicker.min.js" charset="utf-8"></script>
+  <script src="/node_modules/cleave.js/dist/cleave.min.js" charset="utf-8"></script>
+  <script src="/node_modules/cleave.js/dist/addons/cleave-phone.fr.js" charset="utf-8"></script>
+  <script src="/node_modules/toastr/toastr.js" charset="utf-8"></script>
+  <script src="/assets/js/script.js" charset="utf-8"></script>
+</body>
+
+</html>

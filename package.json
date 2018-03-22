@@ -1,0 +1,15 @@
+{
+  "name": "userform",
+  "version": "1.0.0",
+  "description": "Test",
+  "main": "script.js",
+  "author": "Olivier André",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "cleave.js": "^1.2.1",
+    "jquery-date-range-picker": "^1.0.4",
+    "moment": "^2.21.0",
+    "toastr": "^2.1.4"
+  }
+}
